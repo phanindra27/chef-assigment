@@ -1,2 +1,2 @@
 
-localuser'] ["pkgname"] =['git','php','mysql','httpd']
+node['localuser'] ["pkgname"] =['git','php','mysql','httpd']
