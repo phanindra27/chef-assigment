@@ -1,0 +1,7 @@
+git '/var/www/html' do
+  repository 'https://github.com/ls457/php_site.git'
+  revision 'master'
+  action :sync
+  notifies :restart, 'service[httpd]'
+end
+
